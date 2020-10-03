@@ -17,3 +17,8 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+h1 {
+  text-align: center;
+  border: 3px solid green;
+}
