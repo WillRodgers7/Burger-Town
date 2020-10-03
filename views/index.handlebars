@@ -1,6 +1,9 @@
 <h1>Welcome to Burgertown!</h1>
+<br>
+<br>
+<br>
 
-<h2>Burgers to eat!</h2>
+<h2 id="eat">Burgers to eat!</h2>
 
 <ul>
     {{#each burgers}}
@@ -9,8 +12,13 @@
     {{/unless}}
     {{/each}}
 </ul>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<h2>Burgers to Try again!</h2>
+<h2 id="again">Burgers to Try again!</h2>
 
 <ul>
     {{#each burgers}}
@@ -19,11 +27,17 @@
     {{/if}}
     {{/each}}
 </ul>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h2>Create Burger</h2>
 <form class="create-form">
 
     <div class="form-group">
+        
         <label for="burger">Burger Name:</label>
         <input type="text" id="burger" name="name">
     </div>
@@ -34,5 +48,6 @@
         <input type="radio" name="devoured" value="0"> Devoured!
     </div>
 
-    <button type="submit">Create Burger</button>
+
+    <button type="submit" class="btn btn-danger">Create Burger</button>
 </form>

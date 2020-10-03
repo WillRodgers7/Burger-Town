@@ -20,5 +20,14 @@ li {
 
 h1 {
   text-align: center;
-  border: 3px solid green;
+}
+
+#eat {
+  text-align: center;
+  border: 3px solid red;
+}
+
+#again {
+  text-align: center;
+  border: 3px solid yellow;
 }
